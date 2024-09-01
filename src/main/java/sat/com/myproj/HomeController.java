@@ -16,7 +16,7 @@ public class HomeController {
 		return "tester";
 	}
 	
-	@GetMapping("/harmeet")
+	@RequestMapping("/harmeet")
 	public String retTest() {
 		return "Welcome to Jenkins based service";
 	}
